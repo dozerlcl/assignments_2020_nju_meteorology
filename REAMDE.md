@@ -6,3 +6,6 @@
 <br>trick_for_noobs 文件夹是用来存放些临时的脚本代码等
 <br>从git上直接clone会直接放到文件夹
 <br>numerical_PDE 是偏微分方程数值解的一些作业
+
+
+clone别的git文件记得同步
