@@ -1,0 +1,2658 @@
+
+Variable: unnamed
+Type: file
+File path:	/HGST_SATA_8T_3/yycheng/data_stage/course/fnl/fnl_20190101_00_00.grib2
+Number of global attributes:	 0
+Number of dimensions:	 14
+Number of variables:	 109
+
+Variable: x (parameter)
+Type: file
+File path:	/HGST_SATA_8T_3/yycheng/data_stage/course/fnl/fnl_20190101_00_00.grib2
+Number of global attributes:	 0
+Number of dimensions:	 14
+Number of variables:	 109
+
+
+Variable: TMP_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Temperature
+  units :	K
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Temperature
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: TMP_P0_L6_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Temperature
+  units :	K
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Temperature
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Maximum wind level
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: TMP_P0_L7_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Temperature
+  units :	K
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Temperature
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Tropopause
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: TMP_P0_L100_GLL0
+Type: float
+Total Size: 8079840 bytes
+            2019960 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_ISBL0 | 31] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_ISBL0: [100..100000]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Temperature
+  units :	K
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Temperature
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Isobaric surface (Pa)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: TMP_P0_L102_GLL0
+Type: float
+Total Size: 781920 bytes
+            195480 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_AMSL1 | 3] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_AMSL1: [1829..3658]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Temperature
+  units :	K
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Temperature
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specific altitude above mean sea level (m)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: TMP_P0_L103_GLL0
+Type: float
+Total Size: 781920 bytes
+            195480 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_HTGL2 | 3] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_HTGL2: [ 2..100]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Temperature
+  units :	K
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Temperature
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specified height level above ground (m)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: TMP_P0_L104_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Temperature
+  units :	K
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Temperature
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Sigma level (sigma value)
+  level :	0.995
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: TMP_P0_2L108_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Temperature
+  units :	K
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Temperature
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Level at specified pressure difference from ground to level (Pa)
+  level :	<ARRAY>
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: TMP_P0_L109_GLL0
+Type: float
+Total Size: 521280 bytes
+            130320 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_PVL3 | 2] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_PVL3: [-2e-06..2e-06]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Temperature
+  units :	K
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Temperature
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Potential vorticity (K m2 kg-1 s-1)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: POT_P0_L104_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Potential temperature
+  units :	K
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Temperature
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Sigma level (sigma value)
+  level :	0.995
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: DPT_P0_L103_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Dew point temperature
+  units :	K
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Temperature
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specified height level above ground (m)
+  level :	 2
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: APTMP_P0_L103_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Apparent temperature
+  units :	K
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Temperature
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specified height level above ground (m)
+  level :	 2
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: SPFH_P0_L103_GLL0
+Type: float
+Total Size: 521280 bytes
+            130320 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_HTGL4 | 2] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_HTGL4: [ 2..80]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Specific humidity
+  units :	kg kg-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specified height level above ground (m)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: SPFH_P0_2L108_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Specific humidity
+  units :	kg kg-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Level at specified pressure difference from ground to level (Pa)
+  level :	<ARRAY>
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: RH_P0_L4_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Relative humidity
+  units :	%
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Level of 0o C isotherm
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: RH_P0_L100_GLL0
+Type: float
+Total Size: 8079840 bytes
+            2019960 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_ISBL0 | 31] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_ISBL0: [100..100000]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Relative humidity
+  units :	%
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Isobaric surface (Pa)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: RH_P0_L103_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Relative humidity
+  units :	%
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specified height level above ground (m)
+  level :	 2
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: RH_P0_2L104_GLL0
+Type: float
+Total Size: 1042560 bytes
+            260640 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_SIGL5 | 4] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_SIGL5: not a coordinate variable
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Relative humidity
+  units :	%
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Sigma level (sigma value)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: RH_P0_L104_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Relative humidity
+  units :	%
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Sigma level (sigma value)
+  level :	0.995
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: RH_P0_2L108_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Relative humidity
+  units :	%
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Level at specified pressure difference from ground to level (Pa)
+  level :	<ARRAY>
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: RH_P0_L200_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Relative humidity
+  units :	%
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Entire atmosphere (considered as a single layer)
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: RH_P0_L204_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Relative humidity
+  units :	%
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Highest tropospheric freezing level
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: PWAT_P0_L200_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Precipitable water
+  units :	kg m-2
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Entire atmosphere (considered as a single layer)
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: SNOD_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Snow depth
+  units :	m
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: WEASD_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Water equivalent of accumulated snow depth
+  units :	kg m-2
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: CLWMR_P0_L100_GLL0
+Type: float
+Total Size: 5473440 bytes
+            1368360 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_ISBL6 | 21] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_ISBL6: [10000..100000]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Cloud mixing ratio
+  units :	kg kg-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Isobaric surface (Pa)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: CPOFP_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Percent frozen precipitation
+  units :	%
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Moisture
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: UGRD_P0_L6_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	U-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Maximum wind level
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: UGRD_P0_L7_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	U-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Tropopause
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: UGRD_P0_L100_GLL0
+Type: float
+Total Size: 8079840 bytes
+            2019960 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_ISBL0 | 31] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_ISBL0: [100..100000]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	U-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Isobaric surface (Pa)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: UGRD_P0_L102_GLL0
+Type: float
+Total Size: 781920 bytes
+            195480 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_AMSL1 | 3] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_AMSL1: [1829..3658]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	U-component of wind
+  units :	m s-1
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specific altitude above mean sea level (m)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: UGRD_P0_L103_GLL0
+Type: float
+Total Size: 781920 bytes
+            195480 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_HTGL7 | 3] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_HTGL7: [10..100]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	U-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specified height level above ground (m)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: UGRD_P0_L104_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	U-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Sigma level (sigma value)
+  level :	0.995
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: UGRD_P0_2L108_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	U-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Level at specified pressure difference from ground to level (Pa)
+  level :	<ARRAY>
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: UGRD_P0_L109_GLL0
+Type: float
+Total Size: 521280 bytes
+            130320 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_PVL3 | 2] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_PVL3: [-2e-06..2e-06]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	U-component of wind
+  units :	m s-1
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Potential vorticity (K m2 kg-1 s-1)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: UGRD_P0_L220_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	U-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Planetary boundary layer
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VGRD_P0_L6_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	V-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Maximum wind level
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VGRD_P0_L7_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	V-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Tropopause
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VGRD_P0_L100_GLL0
+Type: float
+Total Size: 8079840 bytes
+            2019960 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_ISBL0 | 31] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_ISBL0: [100..100000]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	V-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Isobaric surface (Pa)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VGRD_P0_L102_GLL0
+Type: float
+Total Size: 781920 bytes
+            195480 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_AMSL1 | 3] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_AMSL1: [1829..3658]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	V-component of wind
+  units :	m s-1
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specific altitude above mean sea level (m)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VGRD_P0_L103_GLL0
+Type: float
+Total Size: 781920 bytes
+            195480 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_HTGL7 | 3] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_HTGL7: [10..100]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	V-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specified height level above ground (m)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VGRD_P0_L104_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	V-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Sigma level (sigma value)
+  level :	0.995
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VGRD_P0_2L108_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	V-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Level at specified pressure difference from ground to level (Pa)
+  level :	<ARRAY>
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VGRD_P0_L109_GLL0
+Type: float
+Total Size: 521280 bytes
+            130320 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_PVL3 | 2] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_PVL3: [-2e-06..2e-06]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	V-component of wind
+  units :	m s-1
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Potential vorticity (K m2 kg-1 s-1)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VGRD_P0_L220_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	V-component of wind
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Planetary boundary layer
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VVEL_P0_L100_GLL0
+Type: float
+Total Size: 5473440 bytes
+            1368360 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_ISBL6 | 21] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_ISBL6: [10000..100000]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Vertical velocity (pressure)
+  units :	Pa s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Isobaric surface (Pa)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VVEL_P0_L104_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Vertical velocity (pressure)
+  units :	Pa s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Sigma level (sigma value)
+  level :	0.995
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: ABSV_P0_L100_GLL0
+Type: float
+Total Size: 6776640 bytes
+            1694160 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_ISBL8 | 26] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_ISBL8: [1000..100000]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Absolute vorticity
+  units :	s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Isobaric surface (Pa)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: GUST_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Wind speed (gust)
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VWSH_P0_L7_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Vertical speed shear
+  units :	s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Tropopause
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VWSH_P0_L109_GLL0
+Type: float
+Total Size: 521280 bytes
+            130320 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_PVL3 | 2] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_PVL3: [-2e-06..2e-06]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Vertical speed shear
+  units :	s-1
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Potential vorticity (K m2 kg-1 s-1)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: USTM_P0_2L103_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	U-component storm motion
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specified height level above ground (m)
+  level :	<ARRAY>
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VSTM_P0_2L103_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	V-component storm motion
+  units :	m s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specified height level above ground (m)
+  level :	<ARRAY>
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: VRATE_P0_L220_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Ventilation rate
+  units :	m2 s-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Momentum
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Planetary boundary layer
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: PRES_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Pressure
+  units :	Pa
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: PRES_P0_L6_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Pressure
+  units :	Pa
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Maximum wind level
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: PRES_P0_L7_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Pressure
+  units :	Pa
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Tropopause
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: PRES_P0_L103_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Pressure
+  units :	Pa
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specified height level above ground (m)
+  level :	80
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: PRES_P0_L109_GLL0
+Type: float
+Total Size: 521280 bytes
+            130320 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_PVL3 | 2] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_PVL3: [-2e-06..2e-06]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Pressure
+  units :	Pa
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Potential vorticity (K m2 kg-1 s-1)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: PRMSL_P0_L101_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Pressure reduced to MSL
+  units :	Pa
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Mean sea level (Pa)
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: ICAHT_P0_L6_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	ICAO standard atmosphere reference height
+  units :	m
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Maximum wind level
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: ICAHT_P0_L7_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	ICAO standard atmosphere reference height
+  units :	m
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Tropopause
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: HGT_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Geopotential height
+  units :	gpm
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: HGT_P0_L4_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Geopotential height
+  units :	gpm
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Level of 0o C isotherm
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: HGT_P0_L6_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Geopotential height
+  units :	gpm
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Maximum wind level
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: HGT_P0_L7_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Geopotential height
+  units :	gpm
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Tropopause
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: HGT_P0_L100_GLL0
+Type: float
+Total Size: 8079840 bytes
+            2019960 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_ISBL0 | 31] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_ISBL0: [100..100000]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Geopotential height
+  units :	gpm
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Isobaric surface (Pa)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: HGT_P0_L109_GLL0
+Type: float
+Total Size: 521280 bytes
+            130320 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_PVL3 | 2] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_PVL3: [-2e-06..2e-06]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Geopotential height
+  units :	gpm
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Potential vorticity (K m2 kg-1 s-1)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: HGT_P0_L204_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Geopotential height
+  units :	gpm
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Highest tropospheric freezing level
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: MSLET_P0_L101_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	MSLP (ETA model reduction)
+  units :	Pa
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Mean sea level (Pa)
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: 5WAVH_P0_L100_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	5-wave geopotential height
+  units :	gpm
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Isobaric surface (Pa)
+  level :	50000
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: HPBL_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Planetary boundary layer height
+  units :	m
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: PLPL_P0_2L108_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Pressure of level from which parcel was lifted
+  units :	Pa
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Mass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Level at specified pressure difference from ground to level (Pa)
+  level :	<ARRAY>
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: CWAT_P0_L200_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Cloud water
+  units :	kg m-2
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Cloud
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Entire atmosphere (considered as a single layer)
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: SUNSD_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Sunshine duration
+  units :	s
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Cloud
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: CAPE_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Convective available potential energy
+  units :	J kg-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Thermodynamic stability indices
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: CAPE_P0_2L108_GLL0
+Type: float
+Total Size: 521280 bytes
+            130320 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_SPDL9 | 2] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_SPDL9: not a coordinate variable
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Convective available potential energy
+  units :	J kg-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Thermodynamic stability indices
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Level at specified pressure difference from ground to level (Pa)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: CIN_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Convective inhibition
+  units :	J kg-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Thermodynamic stability indices
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: CIN_P0_2L108_GLL0
+Type: float
+Total Size: 521280 bytes
+            130320 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_SPDL9 | 2] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_SPDL9: not a coordinate variable
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Convective inhibition
+  units :	J kg-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Thermodynamic stability indices
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Level at specified pressure difference from ground to level (Pa)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: HLCY_P0_2L103_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Storm relative helicity
+  units :	m2 s-2
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Thermodynamic stability indices
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Specified height level above ground (m)
+  level :	<ARRAY>
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: LFTX_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Surface lifted index
+  units :	K
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Thermodynamic stability indices
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: 4LFTX_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Best (4 layer) lifted index
+  units :	K
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Thermodynamic stability indices
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: TOZNE_P0_L200_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Total ozone
+  units :	Dobson
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Trace gases (e.g. ozone, CO2)
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Entire atmosphere (considered as a single layer)
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: O3MR_P0_L100_GLL0
+Type: float
+Total Size: 4430880 bytes
+            1107720 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_ISBL10 | 17] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_ISBL10: [100..40000]
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Ozone mixing ratio
+  units :	kg kg-1
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Meteorological products, Trace gases (e.g. ozone, CO2)
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Isobaric surface (Pa)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: LAND_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Land cover (1=land, 0=sea)
+  units :	Proportion
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Land surface products, Vegetation/biomass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: TSOIL_P0_2L106_GLL0
+Type: float
+Total Size: 1042560 bytes
+            260640 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_DBLL11 | 4] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_DBLL11: not a coordinate variable
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Soil temperature
+  units :	K
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Land surface products, Vegetation/biomass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Depth below land surface (m)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: SOILW_P0_2L106_GLL0
+Type: float
+Total Size: 1042560 bytes
+            260640 values
+Number of Dimensions: 3
+Dimensions and sizes:	[lv_DBLL11 | 4] x [lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lv_DBLL11: not a coordinate variable
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 12
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Volumetric soil moisture content
+  units :	Fraction
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Land surface products, Vegetation/biomass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Depth below land surface (m)
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: WILT_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Wilting point
+  units :	Fraction
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Land surface products, Vegetation/biomass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: LANDN_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Land-sea coverage (nearest neighbor) [land=1,sea=0]
+  units :	-
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Land surface products, Vegetation/biomass
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: FLDCP_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Field capacity
+  units :	fraction
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Land surface products, Soil products
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: HINDEX_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Haines index
+  units :	Numeric
+  _FillValue :	9.999e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Land surface products, Fire weather products
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: ICEC_P0_L1_GLL0
+Type: float
+Total Size: 260640 bytes
+            65160 values
+Number of Dimensions: 2
+Dimensions and sizes:	[lat_0 | 181] x [lon_0 | 360]
+Coordinates: 
+            lat_0: [90..-90]
+            lon_0: [ 0..359]
+Number of Attributes: 13
+  center :	US National Weather Service - NCEP (WMC)
+  production_status :	Operational products
+  long_name :	Ice cover
+  units :	Proportion
+  _FillValue :	1e+20
+  grid_type :	Latitude/longitude
+  parameter_discipline_and_category :	Oceanographic products, Ice
+  parameter_template_discipline_category_number :	<ARRAY>
+  level_type :	Ground or water surface
+  level :	 0
+  forecast_time :	0
+  forecast_time_units :	hours
+  initial_time :	01/01/2019 (00:00)
+
+
+
+Variable: lv_DBLL11_l1
+Type: float
+Total Size: 16 bytes
+            4 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_DBLL11 | 4]
+Coordinates: 
+            lv_DBLL11: not a coordinate variable
+Number of Attributes: 2
+  long_name :	Depth below land surface
+  units :	m
+
+
+
+Variable: lv_DBLL11_l0
+Type: float
+Total Size: 16 bytes
+            4 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_DBLL11 | 4]
+Coordinates: 
+            lv_DBLL11: not a coordinate variable
+Number of Attributes: 2
+  long_name :	Depth below land surface
+  units :	m
+
+
+
+Variable: lv_ISBL10
+Type: float
+Total Size: 68 bytes
+            17 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_ISBL10 | 17]
+Coordinates: 
+            lv_ISBL10: [100..40000]
+Number of Attributes: 2
+  long_name :	Isobaric surface
+  units :	Pa
+
+
+
+Variable: lv_SPDL9_l1
+Type: float
+Total Size: 8 bytes
+            2 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_SPDL9 | 2]
+Coordinates: 
+            lv_SPDL9: not a coordinate variable
+Number of Attributes: 2
+  long_name :	Level at specified pressure difference from ground to level
+  units :	Pa
+
+
+
+Variable: lv_SPDL9_l0
+Type: float
+Total Size: 8 bytes
+            2 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_SPDL9 | 2]
+Coordinates: 
+            lv_SPDL9: not a coordinate variable
+Number of Attributes: 2
+  long_name :	Level at specified pressure difference from ground to level
+  units :	Pa
+
+
+
+Variable: lv_ISBL8
+Type: float
+Total Size: 104 bytes
+            26 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_ISBL8 | 26]
+Coordinates: 
+            lv_ISBL8: [1000..100000]
+Number of Attributes: 2
+  long_name :	Isobaric surface
+  units :	Pa
+
+
+
+Variable: lv_HTGL7
+Type: float
+Total Size: 12 bytes
+            3 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_HTGL7 | 3]
+Coordinates: 
+            lv_HTGL7: [10..100]
+Number of Attributes: 2
+  long_name :	Specified height level above ground
+  units :	m
+
+
+
+Variable: lv_ISBL6
+Type: float
+Total Size: 84 bytes
+            21 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_ISBL6 | 21]
+Coordinates: 
+            lv_ISBL6: [10000..100000]
+Number of Attributes: 2
+  long_name :	Isobaric surface
+  units :	Pa
+
+
+
+Variable: lv_SIGL5_l1
+Type: float
+Total Size: 16 bytes
+            4 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_SIGL5 | 4]
+Coordinates: 
+            lv_SIGL5: not a coordinate variable
+Number of Attributes: 2
+  long_name :	Sigma level (sigma value)
+  units :	none
+
+
+
+Variable: lv_SIGL5_l0
+Type: float
+Total Size: 16 bytes
+            4 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_SIGL5 | 4]
+Coordinates: 
+            lv_SIGL5: not a coordinate variable
+Number of Attributes: 2
+  long_name :	Sigma level (sigma value)
+  units :	none
+
+
+
+Variable: lv_HTGL4
+Type: float
+Total Size: 8 bytes
+            2 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_HTGL4 | 2]
+Coordinates: 
+            lv_HTGL4: [ 2..80]
+Number of Attributes: 2
+  long_name :	Specified height level above ground
+  units :	m
+
+
+
+Variable: lv_PVL3
+Type: float
+Total Size: 8 bytes
+            2 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_PVL3 | 2]
+Coordinates: 
+            lv_PVL3: [-2e-06..2e-06]
+Number of Attributes: 2
+  long_name :	Potential vorticity
+  units :	K m2 kg-1 s-1
+
+
+
+Variable: lv_HTGL2
+Type: float
+Total Size: 12 bytes
+            3 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_HTGL2 | 3]
+Coordinates: 
+            lv_HTGL2: [ 2..100]
+Number of Attributes: 2
+  long_name :	Specified height level above ground
+  units :	m
+
+
+
+Variable: lv_AMSL1
+Type: float
+Total Size: 12 bytes
+            3 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_AMSL1 | 3]
+Coordinates: 
+            lv_AMSL1: [1829..3658]
+Number of Attributes: 2
+  long_name :	Specific altitude above mean sea level
+  units :	m
+
+
+
+Variable: lv_ISBL0
+Type: float
+Total Size: 124 bytes
+            31 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lv_ISBL0 | 31]
+Coordinates: 
+            lv_ISBL0: [100..100000]
+Number of Attributes: 2
+  long_name :	Isobaric surface
+  units :	Pa
+
+
+
+Variable: lat_0
+Type: float
+Total Size: 724 bytes
+            181 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lat_0 | 181]
+Coordinates: 
+            lat_0: [90..-90]
+Number of Attributes: 9
+  long_name :	latitude
+  grid_type :	Latitude/Longitude
+  units :	degrees_north
+  Dj :	 1
+  Di :	 1
+  Lo2 :	359
+  La2 :	-90
+  Lo1 :	 0
+  La1 :	90
+
+
+
+Variable: lon_0
+Type: float
+Total Size: 1440 bytes
+            360 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lon_0 | 360]
+Coordinates: 
+            lon_0: [ 0..359]
+Number of Attributes: 9
+  long_name :	longitude
+  grid_type :	Latitude/Longitude
+  units :	degrees_east
+  Dj :	 1
+  Di :	 1
+  Lo2 :	359
+  La2 :	-90
+  Lo1 :	 0
+  La1 :	90
+
