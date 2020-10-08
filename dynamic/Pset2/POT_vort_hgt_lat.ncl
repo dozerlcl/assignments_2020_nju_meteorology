@@ -2,6 +2,7 @@
 ;               计算，等压面上的位势涡度
 ;               使用ncl函数 https://www.ncl.ucar.edu/Document/Functions/Contributed/pot_vort_isobaric.shtml
 ;               计算量较大,进行三个变量的平均加上为 位势涡函数的使用 pot_vort 大约20s  准备一个缓存数据
+;       10.08   添加pot_vort 的输出，为进一步绘图做准备
 begin
     path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/"
     path_in_filenames = "vars_p2.nc"
@@ -26,11 +27,19 @@ begin
     ; printVarSummary(pot_vort)
     ; pot_vort [lv_ISBL0 | 31] x [lat_0 | 181] x [lon_0 | 360]
     pot_vort_lat = dim_avg_n_Wrap(pot_vort(lon_0|:,lv_ISBL0|:,lat_0|:), 0)
+
+    ;;;>>> output to nc for next plot
+    path_out = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/temporary_data/"
+    path_out_filenames = "POT_vort_lat_time.nc"
+    system("rm -f "+path_out+path_out_filenames) ;删除目录下的同名文件
+    ncdf_step1 = addfile(path_out+path_out_filenames, "c") ; c表示创建netcdf文件
+    ncdf_step1->$"POT_vort"$=pot_vort_lat ;写入变量数值
+
+    ;;;>>>进行作图 ： 时间剖面图(未做调整，检查用)
+    wks   = gsn_open_wks ("png", "./output_pic/POT_vort_h_lat_check" )          ; send graphics to PNG file
     pot_vort_lat!0   = "lev"
     pot_vort_lat&lev@units = "Pa"
     pot_vort_lat = pot_vort_lat*1e+6 ; unit 1e-6
-    ;;;>>>进行作图 ： 时间剖面图(未做调整，检查用)
-    wks   = gsn_open_wks ("png", "./output_pic/POT_vort_h_lat_check" )          ; send graphics to PNG file
     ; plot = new(3, graphic)
     res                      = True                 ; plot mods desired
     ; res@gsnDraw = False
