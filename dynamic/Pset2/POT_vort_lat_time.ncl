@@ -37,7 +37,7 @@ begin
     ; res@gsnFrame = False
     res@cnInfoLabelOn = False
     res@cnLevelSelectionMode = "ManualLevels"       ; manually select levels
-      res@cnLevelSpacingF      = 0.25                 ; contour spacing
+      res@cnLevelSpacingF      = 0.5                 ; contour spacing
     ;   res@cnMinLevelValF       = -50.                 ; min level
     ;   res@cnMaxLevelValF       =  50.                 ; max level
     res@lbLabelBarOn        = True             ; turn on  individual cb's
