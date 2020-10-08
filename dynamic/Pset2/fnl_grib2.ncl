@@ -23,15 +23,22 @@ begin
 ;;;>>>>> data reader
     ;   input dir & file_names
 ;;;-------------------------------input files parameters----------------------------
-    dir          = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl/"
+    dir          = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl/fnl_201907/"
     file_names   = systemfunc("cd "+dir+"; ls fnl*")
     ;   output path & varnames
-    ; select_varnames = (/"MSLET_P0_L101_GLL0","TSOIL_P0_2L106_GLL0"/)
-    ; select_varnames = (/"ABSV_P0_L100_GLL0","TMP_P0_L100_GLL0"/)
-    ; select_varnames = (/"UGRD_P0_L100_GLL0","VGRD_P0_L100_GLL0","TMP_P0_L100_GLL0"/)
-    select_varnames =   (/"HGT_P0_L100_GLL0"/)
-    path_out = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/"
-    path_out_filenames = "vars_p5.nc"
+    ;   
+    ;;; select needed vars
+    ;;; abs vort and temper
+    select_varnames = (/"ABSV_P0_L100_GLL0","TMP_P0_L100_GLL0"/)
+    ;;; u v       
+    ; select_varnames = (/"UGRD_P0_L100_GLL0","VGRD_P0_L100_GLL0"/)
+    ;;; HGT
+    ; select_varnames =   (/"HGT_P0_L100_GLL0"/)
+    ;;; one for all
+    ; select_varnames = (/"ABSV_P0_L100_GLL0","TMP_P0_L100_GLL0","UGRD_P0_L100_GLL0","VGRD_P0_L100_GLL0","TMP_P0_L100_GLL0",\
+    ; "HGT_P0_L100_GLL0"/)
+    path_out = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/2019_07/"
+    path_out_filenames = "fnlvars_vort.nc"
     netCDF = True ;   switch,是否将CPC资料存放为nc格式数据
 ;;;----------------------------------------------------------------------------------
     ; printVarSummary(file_names)

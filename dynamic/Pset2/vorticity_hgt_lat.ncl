@@ -4,13 +4,14 @@
 ;           目前只绘制了1月平均的图
 ;>>> data reader
 begin
-    path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/"
-    path_in_filenames = "vars_p1.nc"
+    month_select = "07"
+    path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/2019_"+month_select+"/"
+    path_in_filenames = "fnlvars_vort.nc"
     f     = addfile(path_in+path_in_filenames,"r")
     ; printVarSummary(f)
     vorticity  = f->$"ABSV_P0_L100_GLL0"$    ;   [time | 124] x [lv_ISBL8 | 26] x [lat_0 | 181] x [lon_0 | 360]
-    vort_ave = dim_avg_n_Wrap(vorticity(time|:, lon_0|:, lv_ISBL8|:, lat_0|:), (/0,1/))
-    ; printVarSummary(vort_ave)
+    ; printVarSummary(vorticity)
+    vort_ave = dim_avg_n_Wrap(vorticity(time|:, lon_0|:, lv_ISBL10|:, lat_0|:), (/0,1/))
     vort_ave!0 = "lev"
     vort_ave&lev@units = "Pa"
 ;;;>>>count
@@ -30,11 +31,11 @@ begin
     real_vort   = real_vort* 1e+5 ; 绘图 x 1e+5 记得标注单位
     ; printVarSummary(real_vort)
     compare_vort = real_vort - earth_vort
-    printVarSummary(compare_vort)
+    ; printVarSummary(compare_vort)
     copy_VarCoords(vort_ave, compare_vort)
     compare_vort&lev@units = "Pa"
 ;;;>>>进行作图 ： 时间剖面图(未做调整，检查用)
-    wks   = gsn_open_wks ("png", "./output_pic/vort_h_lat_check" )          ; send graphics to PNG file
+    wks   = gsn_open_wks ("png", "./output_pic/"+month_select+"/vort_h_lat" )          ; send graphics to PNG file
     plot = new(3, graphic)
     res                      = True                 ; plot mods desired
     res@gsnDraw = False
@@ -59,7 +60,7 @@ begin
     plot(2)  = gsn_csm_pres_hgt(wks, compare_vort, res )   ; place holder
 
     pres = True
-    pres@txString              = "vorticity in Jan"
+    pres@txString              = "vorticity in Jul"
     pres@gsnPanelLabelBar      = True ; 公用一个色标
     pres@gsnPanelFigureStrings = (/"(a)","(b)","(c)"/)
     ; pres@lbOrientation         = "vertical"

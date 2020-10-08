@@ -2,14 +2,15 @@
 ;               绘制330K的位势涡度，将之前计算的位势涡度进行插值得到
 
 ;;;>>>>> data reader
-    path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/"
-    path_in_filenames = "vars_p2.nc"
+    select_month = "07"
+    path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/2019_" +select_month+ "/"
+    path_in_filenames = "fnlvars_vort.nc"
     f     = addfile(path_in+path_in_filenames,"r")
     temper  = f->$"TMP_P0_L100_GLL0"$    ;  [time | 124] x [lv_ISBL0 | 31] x [lat_0 | 181] x [lon_0 | 360]
     temper = temper(:,:,::-1,:)
 
     ;;; 读取前一步计算出的涡度
-    path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/temporary_data/"
+    path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/2019_" +select_month+ "/"
     path_in_filenames = "POT_vort_lon_lat_lev.nc"
     f_vort = addfile(path_in+path_in_filenames,"r")
     pot_vort=f_vort->$"POT_vort"$
@@ -30,10 +31,12 @@
     ind_lat = ind(pot_vort_lv_theta&lat_0.ge.20)
     plot_pot_vort = pot_vort_lv_theta(0, ind_lat, :)
     ;;;>>>进行作图 ： 时间剖面图(未做调整，检查用)
-    wks   = gsn_open_wks ("png", "./output_pic/POT_vort_theta_330K" )          ; send graphics to PNG file
+    wks   = gsn_open_wks ("png", "./output_pic/"+select_month+"/POT_vort_theta_330K" )          ; send graphics to PNG file
     plot_pot_vort = plot_pot_vort * 1e+6
+    plot_pot_vort@units = plot_pot_vort@units + " *1e-6"
     ; plot = new(3, graphic)
     res                      = True                 ; plot mods desired
+    res@gsnCenterString      = "Jul"
     ; res@gsnDraw = False
     ; res@gsnFrame = False
     ; res@cnInfoLabelOn = False

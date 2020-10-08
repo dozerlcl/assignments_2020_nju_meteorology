@@ -1,8 +1,9 @@
 ;       10.07   动力课作业2 P2
 ;               计算位温，在100hPa以下位温变化幅度不大，在100以上开始狂飙，注意调整数据间隔
 begin
-    path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/"
-    path_in_filenames = "vars_p1.nc"
+    month_select = "01"
+    path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/2019_"+month_select+"/"
+    path_in_filenames = "fnlvars_vort.nc"
     f     = addfile(path_in+path_in_filenames,"r")
     ; printVarSummary(f)
     temper  = f->$"TMP_P0_L100_GLL0"$    ;  [time | 124] x [lv_ISBL0 | 31] x [lat_0 | 181] x [lon_0 | 360]
@@ -12,10 +13,10 @@ begin
     temper_ave!0 = "lev"
     temper_ave&lev@units = "Pa"
     pot_temper = pot_temp(temper_ave&lev, temper_ave, 0, False)
-    printVarSummary(pot_temper)
+    ; printVarSummary(pot_temper)
 
 ;;;>>>进行作图 ： 时间剖面图(未做调整，检查用)
-    wks   = gsn_open_wks ("png", "./output_pic/POT_h_lat_check" )          ; send graphics to PNG file
+    wks   = gsn_open_wks ("png", "./output_pic/"+month_select+"/POT_h_lat" )          ; send graphics to PNG file
     ; plot = new(3, graphic)
     res                      = True                 ; plot mods desired
     ; res@gsnDraw = False
@@ -30,11 +31,12 @@ begin
     res@cnLineLabelsOn       = True                 ; turn on line labels
     res@cnFillOn             = True                 ; turn on color fill
     res@cnFillPalette        = "BlWhRe"             ; choose colormap
-    ;   res@lbOrientation        = ""
-    ;   res@tiYAxisString        = u&lev@long_name + " (" + u&lev@units + ")"   
-    ; Note: u is already on pressure levels. If this were model data, it
-    ; would be necessary to interpolate from the hybrid coordinates to 
-    ; pressure levels.
+
+    ; res@lbTitleString      = "unit: K"
+    res@lbTitleFontHeightF = 0.0125
+    ; res@gsnPanelMainString   = "Jul"
+    res@gsnCenterString      = "Jan"
+    ; res@gsnLeftString        = " "
 
     plot  = gsn_csm_pres_hgt(wks, pot_temper(10:,:), res )   ; place holder
     ; plot(1)  = gsn_csm_pres_hgt(wks, earth_vort, res )   ; place holder

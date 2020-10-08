@@ -2,8 +2,9 @@
 ;               绘制等 theta 面的位势涡度，将之前计算的位势涡度进行插值得到
 
 ;;;>>>>> data reader
-    path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/"
-    path_in_filenames = "vars_p2.nc"
+    month_select = "07"
+    path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/2019_"+month_select+"/"
+    path_in_filenames = "fnlvars_vort.nc"
     f     = addfile(path_in+path_in_filenames,"r")
     ; printVarSummary(f)
     ; (/"UGRD_P0_L100_GLL0","VGRD_P0_L100_GLL0","TMP_P0_L100_GLL0"/)
@@ -14,7 +15,7 @@
     ; u_comp = u_comp(:,:,::-1,:)
     ; v_comp = v_comp(:,:,::-1,:)
     ;;; 读取前一步计算出的涡度
-    path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/temporary_data/"
+    path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/2019_"+month_select+"/"
     path_in_filenames = "POT_vort_lat_time.nc"
     f_vort = addfile(path_in+path_in_filenames,"r")
     pot_vort=f_vort->$"POT_vort"$
@@ -31,10 +32,12 @@
     pot_vort_lv_theta = int2p_n_Wrap (theta, pot_vort, lv_theta, 0, 0)  
     ; printVarSummary(temper_lv_theta)
     ; ;;;>>>进行作图 ： 时间剖面图(未做调整，检查用)
-    wks   = gsn_open_wks ("png", "./output_pic/POT_vort_theta_lat_check" )          ; send graphics to PNG file
+    wks   = gsn_open_wks ("png", "./output_pic/"+month_select+"/POT_vort_theta_lat" )          ; send graphics to PNG file
     pot_vort_lv_theta = pot_vort_lv_theta * 1e+6
+    pot_vort_lv_theta@units = pot_vort_lv_theta@units + " *1e-6"
     ; plot = new(3, graphic)
     res                      = True                 ; plot mods desired
+    res@gsnCenterString      = "Jul"
     ; res@gsnDraw = False
     ; res@gsnFrame = False
     res@cnInfoLabelOn = False
