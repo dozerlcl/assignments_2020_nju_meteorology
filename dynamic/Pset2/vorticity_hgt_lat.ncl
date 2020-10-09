@@ -55,9 +55,9 @@ begin
     ; would be necessary to interpolate from the hybrid coordinates to 
     ; pressure levels.
 
-    plot(0)  = gsn_csm_pres_hgt(wks, real_vort, res )   ; place holder
-    plot(1)  = gsn_csm_pres_hgt(wks, earth_vort, res )   ; place holder
-    plot(2)  = gsn_csm_pres_hgt(wks, compare_vort, res )   ; place holder
+    plot(0)  = gsn_csm_pres_hgt(wks, real_vort(10:,:), res )   ; place holder
+    plot(1)  = gsn_csm_pres_hgt(wks, earth_vort(10:,:), res )   ; place holder
+    plot(2)  = gsn_csm_pres_hgt(wks, compare_vort(10:,:), res )   ; place holder
 
     pres = True
     pres@txString              = "vorticity in Jul"
@@ -70,5 +70,5 @@ begin
     
     ; pres@amJust                = "TopLeft" ;调整标签顺序
 
-    gsn_panel(wks,plot,(/1,3/),pres)
+    gsn_panel(wks,plot,(/3,1/),pres)
 end
