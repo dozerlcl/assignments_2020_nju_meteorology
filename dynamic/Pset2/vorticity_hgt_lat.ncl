@@ -4,14 +4,14 @@
 ;           目前只绘制了1月平均的图
 ;>>> data reader
 begin
-    month_select = "07"
+    month_select = "01"
     path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/2019_"+month_select+"/"
     path_in_filenames = "fnlvars_vort.nc"
     f     = addfile(path_in+path_in_filenames,"r")
     ; printVarSummary(f)
     vorticity  = f->$"ABSV_P0_L100_GLL0"$    ;   [time | 124] x [lv_ISBL8 | 26] x [lat_0 | 181] x [lon_0 | 360]
-    ; printVarSummary(vorticity)
-    vort_ave = dim_avg_n_Wrap(vorticity(time|:, lon_0|:, lv_ISBL10|:, lat_0|:), (/0,1/))
+    ; lv_ISBL8 for Jan Lv_ISBL10 for Jul
+    vort_ave = dim_avg_n_Wrap(vorticity(time|:, lon_0|:, lv_ISBL8|:, lat_0|:), (/0,1/))
     vort_ave!0 = "lev"
     vort_ave&lev@units = "Pa"
 ;;;>>>count
@@ -41,27 +41,36 @@ begin
     res@gsnDraw = False
     res@gsnFrame = False
     res@cnInfoLabelOn = False
-    ;   res@cnLevelSelectionMode = "ManualLevels"       ; manually select levels
-    ;   res@cnLevelSpacingF      = 5.0                  ; contour spacing
-    ;   res@cnMinLevelValF       = -50.                 ; min level
-    ;   res@cnMaxLevelValF       =  50.                 ; max level
-    res@lbLabelBarOn        = False            ; turn off individual cb's
+      res@cnLevelSelectionMode = "ManualLevels"       ; manually select levels
+      res@cnLevelSpacingF      = 0.4                  ; contour spacing
+      res@cnMinLevelValF       = -3.                 ; min level
+      res@cnMaxLevelValF       =  3.                 ; max level
+    ; res@lbLabelBarOn        = False            ; turn off individual cb's
     res@cnLineLabelsOn       = True                 ; turn on line labels
     res@cnFillOn             = True                 ; turn on color fill
     res@cnFillPalette        = "BlWhRe"             ; choose colormap
+
     ;   res@lbOrientation        = ""
     ;   res@tiYAxisString        = u&lev@long_name + " (" + u&lev@units + ")"   
     ; Note: u is already on pressure levels. If this were model data, it
     ; would be necessary to interpolate from the hybrid coordinates to 
     ; pressure levels.
 
-    plot(0)  = gsn_csm_pres_hgt(wks, real_vort(10:,:), res )   ; place holder
-    plot(1)  = gsn_csm_pres_hgt(wks, earth_vort(10:,:), res )   ; place holder
-    plot(2)  = gsn_csm_pres_hgt(wks, compare_vort(10:,:), res )   ; place holder
+    plot(0)  = gsn_csm_pres_hgt(wks, real_vort(8:,:), res )   ; place holder
+      res@cnLevelSelectionMode = "ManualLevels"       ; manually select levels
+      res@cnLevelSpacingF      = 2                  ; contour spacing
+      res@cnMinLevelValF       = -16.                 ; min level
+      res@cnMaxLevelValF       = 16.                 ; max level
+    plot(1)  = gsn_csm_pres_hgt(wks, earth_vort(8:,:), res )   ; place holder
+      res@cnLevelSelectionMode = "ManualLevels"       ; manually select levels
+      res@cnLevelSpacingF      = 2                  ; contour spacing
+      res@cnMinLevelValF       = -16.                 ; min level
+      res@cnMaxLevelValF       =  16.                 ; max level
+    plot(2)  = gsn_csm_pres_hgt(wks, compare_vort(8:,:), res )   ; place holder
 
     pres = True
-    pres@txString              = "vorticity in Jul"
-    pres@gsnPanelLabelBar      = True ; 公用一个色标
+    pres@txString              = "vorticity in Jan"
+    ; pres@gsnPanelLabelBar      = True ; 公用一个色标
     pres@gsnPanelFigureStrings = (/"(a)","(b)","(c)"/)
     ; pres@lbOrientation         = "vertical"
     pres@lbTitleString      = "unit: s-1 * 1e-5"
@@ -70,5 +79,5 @@ begin
     
     ; pres@amJust                = "TopLeft" ;调整标签顺序
 
-    gsn_panel(wks,plot,(/3,1/),pres)
+    gsn_panel(wks,plot,(/1,3/),pres)
 end
