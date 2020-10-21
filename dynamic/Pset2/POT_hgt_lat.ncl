@@ -1,7 +1,7 @@
 ;       10.07   动力课作业2 P2
 ;               计算位温，在100hPa以下位温变化幅度不大，在100以上开始狂飙，注意调整数据间隔
 begin
-    month_select = "01"
+    month_select = "07"
     path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/2019_"+month_select+"/"
     path_in_filenames = "fnlvars_vort.nc"
     f     = addfile(path_in+path_in_filenames,"r")
@@ -35,10 +35,12 @@ begin
     ; res@lbTitleString      = "unit: K"
     res@lbTitleFontHeightF = 0.0125
     ; res@gsnPanelMainString   = "Jul"
-    res@gsnCenterString      = "Jan"
+    res@gsnCenterString      = "Jul"
     ; res@gsnLeftString        = " "
-
-    plot  = gsn_csm_pres_hgt(wks, pot_temper(10:,:), res )   ; place holder
+    ; print(pot_temper&lev)
+    ; upper boundary is 100hpa
+    ; record number 13 for jul and 10 for jan
+    plot  = gsn_csm_pres_hgt(wks, pot_temper(13:,:), res )   ; place holder
     ; plot(1)  = gsn_csm_pres_hgt(wks, earth_vort, res )   ; place holder
     ; plot(2)  = gsn_csm_pres_hgt(wks, compare_vort, res )   ; place holder
 

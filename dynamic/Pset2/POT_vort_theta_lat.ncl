@@ -2,7 +2,7 @@
 ;               绘制等 theta 面的位势涡度，将之前计算的位势涡度进行插值得到
 
 ;;;>>>>> data reader
-    month_select = "07"
+    month_select = "01"
     path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/2019_"+month_select+"/"
     path_in_filenames = "fnlvars_vort.nc"
     f     = addfile(path_in+path_in_filenames,"r")
@@ -25,7 +25,7 @@
     ph@units  = "Pa"
     theta  = temper_ave                                  ; create/transfer meta data
     theta  = temper_ave*(100000/ph)^0.286                ; calculate potential temperature 
-    lv_theta           = ispan(600,240,10)*1.                     ; specify desired isentropic levels
+    lv_theta           = ispan(400,240,10)*1.                     ; specify desired isentropic levels
 
 ;;;>>>>> interpolate to theta level
     ; temper_lv_theta = int2p_n_Wrap (theta, temper_ave, lv_theta, 0, 0)
@@ -37,14 +37,18 @@
     pot_vort_lv_theta@units = pot_vort_lv_theta@units + " *1e-6"
     ; plot = new(3, graphic)
     res                      = True                 ; plot mods desired
-    res@gsnCenterString      = "Jul"
+    res@gsnCenterString      = "Jan"
     ; res@gsnDraw = False
     ; res@gsnFrame = False
     res@cnInfoLabelOn = False
-      res@cnLevelSelectionMode = "ManualLevels"       ; manually select levels
+    ;   res@cnLevelSelectionMode = "ManualLevels"       ; manually select levels
     ;   res@cnLevelSpacingF      = 10.0                  ; contour spacing
     ;   res@cnMinLevelValF       = -50.                 ; min level
     ;   res@cnMaxLevelValF       =  50.                 ; max level
+
+    res@cnLevelSelectionMode = "ExplicitLevels"       
+    ; res@cnLevelSelectionMode = "ManualLevels"       
+    res@cnLevels            = (/-20,-18,-16,-14,-12,-10,-8,-6,-4,-2,-1.5,-1,-0.5,0,0.5,1,1.5,2,4,6,8,10,12,14,16,18,20/)
     res@lbLabelBarOn        = True             ; turn on  individual cb's
     ; res@lbLabelBarOn        = False            ; turn off individual cb's
     res@cnLineLabelsOn       = True                 ; turn on line labels

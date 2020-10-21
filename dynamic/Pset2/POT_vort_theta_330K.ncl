@@ -46,9 +46,9 @@
     res@mpFillOn                   = True               ; turn off gray map
     res@mpOutlineDrawOrder         = "PostDraw"           ; draw outline first
     ; res@cnLineLabelsOn      = T
-    ;   res@cnLevelSpacingF      = 10.0                  ; contour spacing
-    ;   res@cnMinLevelValF       = -50.                 ; min level
-    ;   res@cnMaxLevelValF       =  50.                 ; max level
+      res@cnLevelSpacingF      = 0.5                  ; contour spacing
+      res@cnMinLevelValF       = 0.                 ; min level
+      res@cnMaxLevelValF       = 7.                 ; max level
     res@gsnAddCyclic        = True
     res@mpLimitMode       = "LatLon"
     res@mpMinLatF         = 20         

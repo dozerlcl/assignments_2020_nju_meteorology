@@ -1,5 +1,5 @@
 ;;;>>>>> data reader
-    select_month = "07"
+    select_month = "01"
     path_in = "/HGST_SATA_8T_3/yycheng/data_stage/course/fnl_2_nc/2019_"+select_month+"/"
     path_in_filenames = "fnlvars_hgt.nc"
     f     = addfile(path_in+path_in_filenames,"r")
@@ -13,7 +13,7 @@
     wks   = gsn_open_wks ("png", "./output_pic/"+select_month+"/HGT_500hpa" )          ; send graphics to PNG file
     ; plot = new(3, graphic)
     res                      = True                 ; plot mods desired
-    res@gsnCenterString      = "Jul"
+    res@gsnCenterString      = "Jan"
     ; res@gsnDraw = False
     ; res@gsnFrame = False
     ; res@cnInfoLabelOn = False
@@ -23,9 +23,9 @@
     res@mpFillOn                   = True               ; turn off gray map
     res@mpOutlineDrawOrder         = "PostDraw"           ; draw outline first
     ; res@cnLineLabelsOn      = T
-    ;   res@cnLevelSpacingF      = 10.0                  ; contour spacing
-    ;   res@cnMinLevelValF       = -50.                 ; min level
-    ;   res@cnMaxLevelValF       =  50.                 ; max level
+      res@cnLevelSpacingF      = 50.0                  ; contour spacing
+      res@cnMinLevelValF       = 5200.                 ; min level
+      res@cnMaxLevelValF       = 6200.                 ; max level
     res@gsnAddCyclic        = True
     res@mpLimitMode       = "LatLon"
     res@mpMinLatF         = 20         
