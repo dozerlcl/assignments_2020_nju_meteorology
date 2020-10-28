@@ -1,2 +1,4 @@
 *.gif
 *.png
+*.nc
+general_c/Pset1/dataset/land.nc
