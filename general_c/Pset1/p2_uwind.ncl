@@ -62,7 +62,7 @@ begin
     ;;; 100hPa
     res@gsnCenterString      = "100 mb"           ; plot center string
     plot(2) = gsn_csm_contour_map(wks, ave_temp_DJF(11,:,:), res)  ; create plot
-    pres@txString              = "DJF temp"
+    pres@txString              = "DJF UWIND"
     ; pres@gsnPanelLabelBar      = True ; 公用一个色标
     pres@gsnPanelFigureStrings = (/"(a)","(b)","(c)"/)
     ; pres@lbOrientation         = "vertical"
