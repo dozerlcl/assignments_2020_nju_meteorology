@@ -46,7 +46,7 @@ begin
       res@cnMinLevelValF       = -3.                 ; min level
       res@cnMaxLevelValF       =  3.                 ; max level
     ; res@lbLabelBarOn        = False            ; turn off individual cb's
-    res@cnLineLabelsOn       = True                 ; turn on line labels
+    res@cnLineLabelsOn       = False                 ; turn on line labels
     res@cnFillOn             = True                 ; turn on color fill
     res@cnFillPalette        = "BlWhRe"             ; choose colormap
 
@@ -56,17 +56,17 @@ begin
     ; would be necessary to interpolate from the hybrid coordinates to 
     ; pressure levels.
 
-    plot(0)  = gsn_csm_pres_hgt(wks, real_vort(8:,:), res )   ; place holder
+    plot(0)  = gsn_csm_pres_hgt(wks, real_vort(5:,:), res )   ; place holder
       res@cnLevelSelectionMode = "ManualLevels"       ; manually select levels
       res@cnLevelSpacingF      = 2                  ; contour spacing
       res@cnMinLevelValF       = -16.                 ; min level
       res@cnMaxLevelValF       = 16.                 ; max level
-    plot(1)  = gsn_csm_pres_hgt(wks, earth_vort(8:,:), res )   ; place holder
+    plot(1)  = gsn_csm_pres_hgt(wks, earth_vort(5:,:), res )   ; place holder
       res@cnLevelSelectionMode = "ManualLevels"       ; manually select levels
       res@cnLevelSpacingF      = 2                  ; contour spacing
       res@cnMinLevelValF       = -16.                 ; min level
       res@cnMaxLevelValF       =  16.                 ; max level
-    plot(2)  = gsn_csm_pres_hgt(wks, compare_vort(8:,:), res )   ; place holder
+    plot(2)  = gsn_csm_pres_hgt(wks, compare_vort(5:,:), res )   ; place holder
 
     pres = True
     pres@txString              = "vorticity in Jan"
