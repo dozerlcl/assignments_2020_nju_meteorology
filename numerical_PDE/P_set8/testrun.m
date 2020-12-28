@@ -7,7 +7,7 @@ clear all
 %Example of how to run N-S solver:
 %Set Reynolds number, integration time, and time step 
 %-----------------------------------------------------------------
-tf = 15;
+tf = 20;
 dt = 0.002;
 Re = 1000.;
 nx = 64;
