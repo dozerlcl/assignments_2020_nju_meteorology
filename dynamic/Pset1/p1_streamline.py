@@ -1,5 +1,3 @@
-# from pyvista import examples
-# examples.plot_wave()
 import pyvista as pv
 import numpy as np
 from pyvista import examples
@@ -27,9 +25,3 @@ stream, src = mesh.streamlines('vectors', return_source=True,
 cpos = [(1.2, 1.2, 1.2), (-0.0, -0.0, -0.0), (0.0, 0.0, 1.0)]
 # mesh.plot(screenshot="test1.png")
 pv.plot(stream,cpos=cpos)
-# plotter = pv.Plotter()    # instantiate the plotter
-# plotter.add_mesh(mesh)    # add a mesh to the scene
-# cpos = plotter.show()     # show the rendering window
-# u=(-10.0sin(N.xpi/15000)cos(N.ypi/15000)cos(N.zpi/15000) + 10.0sqrt(3)sin(N.ypi/15000)sin(N.zpi/15000)cos(N.xpi/15000) + 15sin(sqrt(3)pi(N.z - 7500)/15000))N.i 
-# v=(10.0sqrt(3)sin(N.xpi/15000)sin(N.zpi/15000)cos(N.ypi/15000) - 10.0sin(N.ypi/15000)cos(N.xpi/15000)cos(N.zpi/15000) + 15cos(sqrt(3)*pi(N.z - 7500)/15000))N.j 
-# w=(20.0sin(N.zpi/15000)cos(N.xpi/15000)cos(N.ypi/15000))N.k
